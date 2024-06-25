@@ -1,0 +1,555 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+.outer {
+    background-color: antiquewhite;
+    border: 3px solid black;
+    height: 100%;
+    margin: 15px;
+}
+
+.food {
+    background-color: rgb(26, 203, 114);
+    height: 40vh;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.food h1 {
+    text-transform: uppercase;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 18px;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+td[rowspan="2"] {
+    height: 100px;
+    padding: 10px;
+}
+
+td[colspan="2"] {
+    height: 100px;
+    padding: 10px;
+}
+
+.box1 td {
+    padding: 10px;
+}
+
+.box5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 140px;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-item {
+    margin: 0 18px;
+}
+
+.box2 {
+    margin-top: 30px !important;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box2 table td {
+    padding: 7px;
+}
+
+.box6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.box6 td {
+    padding: 27px 21px;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+
+.box3 td {
+    padding: 10px;
+}
+
+.box7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.box7 td {
+    padding: 10px 21px;
+}
+
+.box4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.box4 td {
+    padding: 10px;
+}
+
+.box8 {
+    margin-top: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box8 td {
+    padding: 10px 21px;
+}
+
+.box9 {
+    margin-top: 130px;
+}
+
+.box9 td {
+    padding: 10px 21px;
+}
+
+.prayer-room {
+    background-color: #323232;
+    color: white;
+    padding: 50px 18px;
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.vip-lounge {
+    background-color: rgb(157, 73, 73);
+    color: white;
+    padding: 50px 18px;
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-table-container,
+.right-table-container {
+    margin: 10px;
+}
+
+.left-table-container td,
+.right-table-container td {
+    padding: 15px 25px !important;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+.hall {
+    background-color: red;
+    width: 110px;
+    margin: 10px;
+    padding: 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hall i {
+    color: white;
+    font-size: 35px;
+}
+
+.arrows {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 5px;
+}
+
+h5 {
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+}
+
+.blank {
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    margin: 0 0 0 560px !important;
+}
+
+@media (max-width: 790px) {
+
+    .prayer-room,
+    .vip-lounge {
+        margin-top: 20px;
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    .box1 td,
+    .box2 td,
+    .box3 td,
+    .box4 td,
+    .box5 td,
+    .box6 td,
+    .box7 td,
+    .box8 td,
+    .box9 td {
+        padding: 5px;
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6,
+    .box7,
+    .box8,
+    .box9 {
+        margin-top: 10px;
+    }
+
+    .bottom {
+        align-items: stretch;
+    }
+
+    .hall {
+        width: 20%;
+        height: auto;
+        margin: 5px 0;
+    }
+
+    .table-container {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    table,
+    tr,
+    td {
+        display: block;
+        width: 100%;
+    }
+
+    tr {
+        margin-bottom: 5px;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    .flex-container {
+        display: block;
+    }
+
+    .flex-item {
+        margin: 5px 0;
+    }
+}
+
+@media (min-width: 600px) {
+    .left-table-container {
+        margin-left: 280px;
+    }
+
+    .right-table-container {
+        margin-left: 60px;
+    }
+
+    .blank {
+        margin-left: 320px;
+    }
+}
+
+@media (max-width: 666px) {
+
+    .prayer-room,
+    .vip-lounge {
+        margin-top: 20px;
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    .box1 td,
+    .box2 td,
+    .box3 td,
+    .box4 td,
+    .box5 td,
+    .box6 td,
+    .box7 td,
+    .box8 td,
+    .box9 td {
+        padding: 5px;
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6,
+    .box7,
+    .box8,
+    .box9 {
+        margin-top: 10px;
+    }
+
+    .bottom {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .hall {
+        width: 100%;
+        height: auto;
+        margin: 5px 0;
+    }
+
+    .arrows {
+        flex-direction: column;
+    }
+
+    .table-container {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    table,
+    tr,
+    td {
+        display: block;
+        width: 100%;
+    }
+
+    tr {
+        margin-bottom: 5px;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    .flex-container {
+        display: block;
+    }
+
+    .flex-item {
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 588px) {
+
+    .prayer-room,
+    .vip-lounge {
+        padding: 10px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6,
+    .box7,
+    .box8,
+    .box9 {
+        margin-top: 5px;
+    }
+
+    .box1 td,
+    .box2 td,
+    .box3 td,
+    .box4 td,
+    .box5 td,
+    .box6 td,
+    .box7 td,
+    .box8 td,
+    .box9 td {
+        padding: 2px;
+    }
+
+    .food {
+        height: 30vh;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .hall {
+        width: 90px;
+        height: 120px;
+        margin: 5px auto;
+        font-size: 12px;
+    }
+
+    .arrows {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blank {
+        margin-left: 0;
+    }
+
+    .flex-item {
+        margin: 2px 0;
+    }
+}
+
+@media (max-width: 1257px) {
+    .table-container {
+        display: block;
+    }
+
+    table,
+    tr,
+    td {
+        display: block;
+        width: 100%;
+    }
+
+    tr {
+        margin-bottom: 10px;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    .flex-container {
+        display: block;
+    }
+
+    .flex-item {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .prayer-room,
+    .vip-lounge {
+        padding: 8px;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6,
+    .box7,
+    .box8,
+    .box9 {
+        margin-top: 3px;
+    }
+
+    .box1 td,
+    .box2 td,
+    .box3 td,
+    .box4 td,
+    .box5 td,
+    .box6 td,
+    .box7 td,
+    .box8 td,
+    .box9 td {
+        padding: 1px;
+    }
+
+    .food {
+        height: 25vh;
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .hall {
+        width: 80px;
+        height: 100px;
+        margin: 2px auto;
+        font-size: 10px;
+    }
+
+    .arrows {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blank {
+        margin-left: 0;
+    }
+
+    .flex-item {
+        margin: 1px 0;
+    }
+}
