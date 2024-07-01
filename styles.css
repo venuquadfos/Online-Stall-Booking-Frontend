@@ -31,16 +31,18 @@ table {
 }
 
 td {
-    height: 12px !important;
+    height: 14px !important;
     border: 1px solid #000;
     background-color: #fff;
 }
 td p{
     font-size: 8px;
+    margin-bottom: 6px;
 }
 td h3{
+    margin-top: 6px;
     font-size: 12px;
-} h2{
+} h2{ 
     font-size: 14px;
 }
 
